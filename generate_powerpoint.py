@@ -15,13 +15,14 @@ player_markers = {
 
 state_shapes = {}
 
+# Create the slides
 for state in states:
     slide = prs.slides.add_slide(blank_slide_layout)
     player, board = state
 
     box = slide.shapes.add_textbox(Inches(1), Inches(1), Inches(5), Inches(1))
     tf = box.text_frame
-    tf.text = f"{player_markers[player]}’s turn"
+    tf.text = "%s’s turn" % player_markers[player]
 
     row_shapes = []
     for i in range(len(board)):
@@ -34,6 +35,7 @@ for state in states:
         row_shapes.append(col_shapes)
     state_shapes[state] = row_shapes
 
+# Add the links between squares and slides for interactivity.
 for (state, neighbors) in state_graph.items():
     for (i, j), index in neighbors:
         state_shapes[state][i][j].click_action.target_slide = prs.slides[index]
