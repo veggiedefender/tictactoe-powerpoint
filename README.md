@@ -2,7 +2,7 @@
 
 Inspired by this tweet: https://twitter.com/buildsghost/status/1399971984541249538
 
-The presentation has around 6,000 slides representing every possible game state. You play by clicking on the squares, which are hyperlinks to other slides.
+The presentation has around 6,000 slides representing every possible game state (and some impossible ones, since I didn't check for wins or ties). You play by clicking on the squares, which are hyperlinks to other slides.
 
 https://user-images.githubusercontent.com/8890878/120588727-ab22d780-c405-11eb-8d27-b615f131951c.mp4
 
