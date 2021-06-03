@@ -7,7 +7,7 @@ The presentation has around 6,000 slides representing every possible game state 
 https://user-images.githubusercontent.com/8890878/120588727-ab22d780-c405-11eb-8d27-b615f131951c.mp4
 
 ## I don't want to clone a repo and run a python script just to play a terrible gimmicky game of tic-tac-toe!
-Fair enough. I've converted it to a [Google Slides presentation](https://docs.google.com/presentation/d/1_uKyq2WGYqu_SmXR-XBeGp5swDvSZzj_ovHLKV2NU68/edit?usp=sharing), which you can play by clicking "Present" on the top right corner. It'll take a minute to load.
+Fair enough. I've converted it to a [Google Slides presentation](https://docs.google.com/presentation/d/1_uKyq2WGYqu_SmXR-XBeGp5swDvSZzj_ovHLKV2NU68/edit?usp=sharing), which you can play by clicking "Present" on the top right corner. It'll take a minute to load. If that crashes, you can also try to go directly into [presentation mode](https://docs.google.com/presentation/d/e/2PACX-1vREYpjJ8uap4is8PEpZm8_9urF91NMOS9I_wB8m_66zNs60WwGlGl0dpd-gG3oLpPdnrJEtIt37o-M0/pub?start=false&loop=false).
 
 ## I *do* want to clone a repo and run a python script just to play a terrible gimmicky game of tic-tac-toe!
 ```bash
